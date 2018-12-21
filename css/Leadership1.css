@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	color:white;
+}
+table.nav {
+	float:right;
+	color: white;
+	border-color: black;
+}
+.nav td{
+	padding:20px 35px;
+}
+hr {
+	height:0.05px;
+	color: white;
+	clear:both;
+	margin:0px;
+}
+td.leadership{
+	border-bottom-color: white;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	margin-bottom:0px;
+}
+div.img{
+
+	background-color: #afd6ea;
+	width:220px;
+	height:220px;
+}
+section.member {
+	display:flex;
+	flex-flow: row wrap;
+	margin-top:45px;
+	margin-left:60px;
+	width:820px;
+}
+div.member{
+	flex:0 0 270px;
+}
+#team>.img {
+	background-color: #afd6ea;
+	width:780px;
+	height:530px;
+	margin-top:45px;
+}
+main {
+	display: flex;
+	flex-flow: row wrap;
+}
+a:hover {
+	color:white;
+}
+a:active {
+	color:white;
+}
+a:visited {
+	color:white;
+}
+a{
+	text-decoration: none;
+}
